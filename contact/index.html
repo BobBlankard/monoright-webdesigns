@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Monoright Web Designs | San Diego</title>
+    <meta
+      name="description"
+      content="Book a call or send a message to Monoright Web Designs. Web design for San Diego County small businesses: phone, email, and a Netlify-ready contact form."
+    />
+    <link rel="canonical" href="https://www.monorightwebdesigns.com/contact/" />
+    <meta property="og:title" content="Contact | Monoright Web Designs" />
+    <meta property="og:description" content="Request a quote or call Monoright Web Designs in San Diego County." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.monorightwebdesigns.com/contact/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header site-header--minimal">
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pricing/index.html">Pricing</a></li>
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="index.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      <div class="site-header__inner">
+        <div class="site-header__actions-cluster">
+        <div class="nav-actions">
+          <a class="btn btn--primary btn--nav" href="https://cal.com/monoright/30min">Schedule a call</a>
+          <button
+            type="button"
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+            aria-label="Open menu"
+          >
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+            <span class="nav-toggle__bar" aria-hidden="true"></span>
+          </button>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="wrap contact-page" aria-labelledby="contact-heading">
+        <header class="contact-hero" data-reveal>
+          <p class="contact-kicker">Contact us</p>
+          <h1 id="contact-heading">Tell us what you need and we will map the simplest path forward.</h1>
+          <p class="contact-lead">
+            Share your business type, timeline, and whether you prefer a lump-sum build or monthly plan. We typically
+            reply within one business day.
+          </p>
+        </header>
+
+        <section class="contact-details" aria-label="Contact details">
+          <article class="contact-block" data-reveal>
+            <h2>Call or email</h2>
+            <p>
+              <strong>Phone:</strong> <a href="tel:+16195550199">(619) 555-0199</a><br />
+              <strong>Email:</strong> <a href="mailto:hello@monorightwebdesigns.com">hello@monorightwebdesigns.com</a>
+            </p>
+            <p>
+              <strong>Service area:</strong> San Diego County including San Diego, Chula Vista, Carlsbad, Oceanside, La
+              Jolla, North County, and South Bay communities.
+            </p>
+          </article>
+
+          <article class="contact-block" data-reveal>
+            <h2>Before we start</h2>
+            <p>
+              A short discovery call keeps scope clear: pages you need, assets you already have, and how you want to
+              handle hosting and support.
+            </p>
+            <p>
+              <a href="../pricing/index.html">View pricing</a> ·
+              <a href="mailto:hello@monorightwebdesigns.com">Email us</a>
+            </p>
+          </article>
+        </section>
+
+        <section class="contact-form-section" aria-labelledby="contact-form-heading" data-reveal>
+          <h2 id="contact-form-heading">Send a message</h2>
+          <p class="contact-form-intro">Include your business name, current site (if any), target launch date, and goals.</p>
+          <!-- Netlify: enable form handling and notifications in the site dashboard after deploy. -->
+          <form
+            class="contact-form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="../thank-you/index.html"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden" aria-hidden="true">
+              <label>Don’t fill this out: <input name="bot-field" autocomplete="off" /></label>
+            </p>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="contact-optional">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="message">Project notes</label>
+              <textarea id="message" name="message" required placeholder="Business name, current site (if any), timeline..."></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer--wordmark" role="contentinfo">
+      <div class="site-footer__meta-row">
+        <p class="site-footer__copyright">&copy; <span id="y"></span> Monoright Web Designs</p>
+        <nav class="site-footer__locations" aria-label="Footer locations">
+          <a href="../locations/san-diego/index.html">San Diego</a>
+          <a href="../locations/chula-vista/index.html">Chula Vista</a>
+          <a href="../locations/carlsbad/index.html">Carlsbad</a>
+          <a href="../locations/la-jolla/index.html">La Jolla</a>
+          <a href="../locations/oceanside/index.html">Oceanside</a>
+        </nav>
+      </div>
+      <div class="site-footer__wordmark-stack" data-reveal aria-label="MONORIGHT logo">
+        <span class="site-footer__wordmark site-footer__wordmark--top site-footer__wordmark--reveal-3" aria-hidden="true">MONORIGHT</span>
+        <span class="site-footer__wordmark site-footer__wordmark--mid site-footer__wordmark--reveal-2" aria-hidden="true">MONORIGHT</span>
+        <span class="site-footer__wordmark site-footer__wordmark--front site-footer__wordmark--reveal-1" aria-hidden="true">MONORIGHT</span>
+      </div>
+    </footer>
+    <script>
+      var yEl = document.getElementById("y"); if (yEl) yEl.textContent = new Date().getFullYear();
+    </script>
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
